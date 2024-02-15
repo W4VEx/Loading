@@ -1,0 +1,32 @@
+.load{
+    
+    width: 80px;
+    height: 80px;
+    border: 10px solid transparent;
+    border-top-color:rgb(255, 98, 0);
+    border-radius: 50%;
+    animation: cir 1s infinite linear;
+
+}
+@keyframes cir{
+
+    0%{
+        transform: rotateZ(0);
+
+    }
+    100%{
+        transform: rotateZ(360deg);
+
+    }
+}
+
+
+.btn-load{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    background-color: #eee;
+    
+}
